@@ -1,0 +1,360 @@
+
+/* carousel rasmlar */
+#eng-asosiy{
+    -webkit-box-reflect:below 1px linear-gradient(transparent,#0000);
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+   0%{
+       color: #50a4bb;
+       text-shadow: none;
+   }
+   100%{
+       color: #ffff;
+       text-shadow: 0 0 10px #03bcf4,
+       0 0 20px #03bcf4,
+       0 0 40px #03bcf4,
+       0 0 80px #03bcf4,
+       0 0 160px #03bcf4;
+   }
+}
+.card:hover{
+   cursor: pointer;
+}
+.carousel-fade .card{
+   border: none;
+}
+.carousel-fade img{
+   width: 100%;
+   height: 600px;
+}
+.carousel-fade h1{
+   margin-top: 70px;
+   font-size: 70px;
+   color: white;
+   margin-left: 50px;
+   
+}
+.carousel-fade p{
+   font-size: 20px;
+   width: 500px;
+   color: white; 
+   margin-left: 50px;  
+   font-family: initial;
+}
+.carousel-fade .card-img-overlay{
+   background: rgba(1, 10, 36, 0.6);
+}
+h3:hover{
+ color: green;
+ transition: 0.2s;
+ text-decoration: underline;
+}
+#yangiliklar .col-4 .card{
+   box-shadow: 0 0 10px rgb(39, 39, 39);
+}
+#yangiliklar .col-4 img:hover{
+   transform: scale(.99);
+   transition: all 0.5s;
+}
+#yangiliklar p{
+ letter-spacing: 2px;
+ font-family: inherit;
+}
+#yangiliklar .bir-xil{
+   height: 250px;
+   filter: brightness(0.5);
+}
+#menu li{
+   margin: 10px 10px;
+}
+#menu li a{
+   font-size: 18px;
+   font-family: initial;
+   color: white !important;
+}
+#menu ul li a:hover{
+   color: rgb(11, 160, 11) !important;
+}
+#menu ul{
+   margin-left: 80px;
+   padding-top: 5px;
+}
+nav .navbar-brand{
+   font-size: 30px;
+   font-family: i;
+}
+@media (max-width:600px)
+{
+   .carousel-fade h1{
+       font-size: 50px;
+   }
+}
+@media (max-width:551px)
+{
+   .carousel-fade h1{
+       font-size: 40px;
+   }
+   .carousel-fade p{
+       width: 280px;
+   }
+}
+@media (max-width:347px)
+{
+   .carousel-fade h1{
+       font-size: 30px;
+   }
+   .carousel-fade p{
+       width: 230px;
+   }
+}
+#card-hover:hover{
+   color: orange;
+   background-color: black;
+   transition: 0.8s;
+}
+#yangilik-card-hover:hover{
+   background-color: black;
+   color: orange;
+   transition: 0.8s;
+}
+/* pagination */
+/* Biz haqimizda */
+@media (max-width:767px){
+   #biz-haqimizda-col-6{
+       margin-top: 10px;
+   }
+}
+#id img{
+   height: 300px;
+}
+#id .card{
+   width: 18rem;
+}
+#id .card:hover{
+   transition: all 0.4s linear;
+   transform: scale(1.03);
+   box-shadow: 0px 0px 15px 0px gold;
+   
+}
+button:hover+i{
+   color: #000!important;
+}
+#biz-haqimizda img{
+   height: 350px;
+}
+#biz-haqimizda button{
+   width: 150px;
+}
+#biz-haqimizda h3:hover{
+   color: green;
+   text-decoration: underline;
+   transition: 0.5s;
+}
+#biz-haqimizda img{
+   filter: brightness(0.8);
+}
+#biz-haqimizda .card{
+   box-shadow: 1px 1px 5px silver;
+}
+#biz-haqimizda p{
+   margin-left: 5px;
+   font-size: 18px;
+   font-family: initial;
+   letter-spacing: 1px;
+}
+#biz-haqimizda button{
+   font-size: 18px;
+   font-weight: bold;
+}
+#biz-haqimizda button:hover{
+   color: orange;
+   background-color: black;
+   border: none !important;
+}
+
+/* Aloqa va xarita uchun */
+      #aloqa .img-fluid{height: 345px;}
+      #aloqa .card-img-overlay{background-color: rgba(0,0,0,0.7);}
+      #aloqa .img{width: 50px;height: 50px;}
+      #aloqa .ii{color: white;font-size: 40px;}
+      #aloqa .va{margin-top: -30px;}
+      #aloqa h3{color: white;margin-top: 20px;}
+      #aloqa h4{color: white;}
+      #aloqa .B{font-size: 18px;}
+      #aloqa .icons{color: white;font-size: 20px;}
+      #aloqa .i{background: rgba(0,0,0,0.7);border-radius: 50%;transition: all 200ms linear;}
+      #aloqa .i1:hover{color: white;background-color: rgb(6, 6, 104);transform: scale(2) !important;}
+      #aloqa .i2:hover{color: white;background-color: rgb(54, 54, 238);}
+      #aloqa .i3:hover{color: white;background-color: red;}
+      #aloqa .i4:hover{color: white;background: linear-gradient(45deg, orange, red, blue);}
+      #aloqa h4{margin-top: 40px;font-weight: 650;}
+      #aloqa  h6{color: white;margin-top: 5px;transition: all 0.4s linear;}
+      #aloqa .h6:hover{color: orange; margin-left: 8px;}
+      #aloqa .d1{margin-left: 75px;}
+      #aloqa .h4{margin-left: -30px;}
+      #aloqa .d2{margin-left: 30px;}
+      #aloqa .hhh{margin-left: -90px;}
+      #aloqa .d3{margin-left: -10px;}
+      #aloqa .biii{font-size: 20px; }
+      #aloqa .biii1{font-size: 15px;}
+      #aloqa .h66{margin-left: -1px;margin-top: 8px;}
+      #aloqa  a:hover{list-style: none;text-decoration: none;}
+      #aloqa  a{list-style: none;text-decoration: none;}
+      #aloqa .image{
+           width: 140px;
+           height: 140px;
+       }
+       #aloqa .image1{
+           width: 225px;
+           height: 150px;
+       }
+       #aloqa .rov{
+           width: 100%;
+           margin: 5% auto;
+       }
+
+       @media (max-width:973px){
+          #dizayn{
+              display: none;
+          }
+       }
+
+       /* Kitoblar  */
+       #book  .owl-dots{
+           text-align: center;
+           margin-top: 20px;
+       }
+       #book  .owl-dot{
+           height: 13px;
+           width: 13px;
+           margin: 0 5px;
+           outline: none !important;
+           border-radius: 50%;
+           border: 2px solid crimson !important;
+           transition: all 0.3s ease;
+       }
+       #book #ilmiy .owl-dot{
+           border: 2px solid blue !important;
+       }
+       #book .owl-dot.active{
+           width: 35px;
+           border-radius: 14px;
+       }
+       #book   .owl-dot.active,#book  .owl-dot:hover{
+           background: crimson !important;
+       }
+       #book #ilmiy  .owl-dot.active,#book #ilmiy  .owl-dot:hover{
+           background: blue !important;
+       }
+       #book #badiy_brend{
+           width: 150px;
+           height: 120px;
+       }
+       #book .badiy_kitob .card {
+           overflow: hidden !important;
+       }
+       #book .badiy_kitob img{
+           width: 280px;
+           height: 300px;
+       }
+       #book .pr{
+           position: absolute;
+           top:150px;
+           left:-20px;
+           font-size: 35px;
+           color: crimson;
+           z-index: 2;
+           transition: all 0.3s linear;
+       }
+       #book .ne{
+           position: absolute;
+           top:150px;
+           right:-20px;
+           font-size: 35px;
+           color: crimson;
+           z-index: 2;
+           transition: all 0.3s linear;
+       }
+       #book .pr:hover, #book .ne:hover{
+           color: blue;
+       }
+       #book .badiy_kitob .card .card-img-overlay:hover{
+           top:0% !important;
+       }
+       #book .badiy_kitob .card .card-img-overlay{
+           top:85%;
+           left: -10px;
+           width: 110%;
+           background-color: rgba(0, 0, 0, 0.8) !important;
+           transition: all 0.3s linear;
+       }
+       
+       #book .badiy_kitob .card .card-img-overlay h3{
+           font-family:serif;
+           font-weight: bold;
+           letter-spacing: 0.5px;
+       }
+       #book .badiy_kitob .card .card-img-overlay  .star{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           color: goldenrod;
+       }
+       #book .badiy_kitob .card .card-img-overlay  .star i{
+           font-size: 22px;
+       }
+       #book .badiy_kitob .card .card-img-overlay .narx{
+           font-family: Georgia, Times New Roman, Times, serif;
+       }
+       #book .badiy_kitob .best{
+           position: absolute;
+           right: -15%; top:9%; 
+           transform: rotate(45deg);
+           width: 150px;
+           color: white;
+           background-color: rgb(0, 255, 85);
+           font-weight: bold;
+           text-align: center;
+       }
+       #book .audio{
+           position: absolute;
+           width: 40px;
+           height: 40px;
+           border-radius: 50%;
+           background-color: silver;
+            top: 1px;
+           right: 10px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-size: 20px;
+           color: green;
+           font-size: 28px;
+       }
+       #book .badiy_kitob .chegirma{
+           position: absolute;
+           width: 50px;
+           height: 50px;
+           border-radius: 50%;
+           background-color: red; top: 5%;
+           left: 5%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-size: 20px;
+           color: gold;
+           transition: all 0.3s linear;
+       }
+       #book .badiy_kitob .chegirma:hover{
+           transform:rotate(360deg) !important;
+           background-color: gold !important;
+           color: red !important;
+       }
+       @media (max-width: 700px) and (min-width:400px){
+           #book .badiy_kitob .best{
+               right: -16%; top:10%; 
+               width: 150px;
+           }
+       }
